@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+
+body {
+	font-family: source-sans-pro;
+	background-color: #ffffff;
+	margin: 0;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.home {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin: 0;
+	color: black;
+}
+
+.container header nav {
+	margin: 0;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	padding-bottom: 20px;
+	background: #ffffff;
+}
+
+header nav ul {
+	padding: 0;
+	float: none;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+}
+
+nav ul li {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+ul li:hover a {
+	color: orange;
+}
+
+.main {
+	color: #000000;
+	margin: auto;
+	text-align: center;
+  display: block;
+      }
+
+h1 {
+Color:black;
+font-size: 20px;
+text-align:center;
+text-decoration: none;
+}
+
+h2 {
+font-size:15px;
+color:grey;
+text-align: center;
+padding-bottom: 20px;
+text-decoration: none;
+}
+
+ p {
+    display: inline-block;
+    margin:auto;
+    width: 100%;
+}
+
+.page-footer {
+   margin: auto;
+   padding-top: 10px;
+   text-align: center;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 12px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-google {
+  background: black;
+  color: white;
+}
+
+project {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.project_column {
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+}
+project .project_column  {
+	text-align: center;
+}
+
+project .project_column p {
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+
+.main p {
+	margin: auto;
+}
+
+
+.text_column {
+	width: 100%;
+	text-align: center;
+
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0;
+}
+
+.footer_column {
+	width: 100%;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.contact-form {
+Padding: 20px;
+}
+
+.contact-form .form-group {
+Padding-bottom: 20px;
+}
+
+.contact-form label {
+Display:block;
+	padding: 20px;
+}
+
+.contact-form input [type= "text'] .contact-form textarea{
+padding: 20px;
+width: 100%;
+}
+
+.contact-form input [type="submit"]{
+background-color: black;
+color: white;
+padding: 10px; 15px;
+border: none;
+}

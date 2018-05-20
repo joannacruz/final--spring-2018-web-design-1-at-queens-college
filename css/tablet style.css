@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+
+body {
+	font-family: source-sans-pro;
+	background-color: #ffffff;
+	margin:: 0;
+	font-style: normal;
+	font-weight: normal;
+}
+}
+
+
+header {
+	width: 100%;
+	height: 10%;
+   text-align: center;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+}
+
+header nav ul {
+	list-style: none;
+	display: inline-block;
+
+}
+
+nav ul li {
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	display: inline-block;
+
+}
+
+ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+ul li:hover a {
+	color: #2C9AB7;
+}
+
+.main {
+	color: #000000;
+	margin: auto;
+	text-align: center;
+        display: block;
+       }
+
+h1 {
+Color:black;
+font-size: 30px;
+text-align:center;
+text-decoration: none;
+}
+
+h2 {
+font-size:20px;
+color:grey;
+text-align: center;
+line-height: 10%;
+padding-bottom: 20px;
+text-decoration: none;
+}
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.page-footer {
+   margin: auto;
+   padding-top: 10px;
+   text-align: center;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 12px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-google {
+  background: black;
+  color: white;
+}
+
+
+Project {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.project_column {
+	width: 50%;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+}
+project .project_column h3 {
+	text-align: center;
+}
+
+Project .project_column p {
+	background-color: #FFFFFF;
+
+
+/*About Section*/
+.main p {margin: auto:}
+
+/* Mobile */
+@media ( min-width : 320px ) and (max-width : 503px )
+
+.container header nav {
+	margin: 0;
+	width: 80%;
+	float: right;
+	overflow: auto;
+}
+header nav ul {
+	padding: 0px;
+	display: inline-block:
+
+}
+nav ul li {
+	margin: auto
+	width: 20%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	display: inline-block;
+}
+
+Project {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+
+.project_column {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+}
+
+project .project_column h3 {
+	text-align: center;
+	margin: auto;
+}
+
+Project .project_column p {
+	background-color: #FFFFFF;
+	}
+
+.text_column {
+	width: 100%;
+	text-align: center;
+
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+
+.footer_column {
+	width: 100%;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+form {
+  margin: auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+   vertical-align: top
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
+
+
+@media (min-width : 16px ) and ( max-width : 3776px ){
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

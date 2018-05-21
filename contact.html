@@ -5,55 +5,64 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<!--Title in browser window-->
+
 <title>Joanna Cruz | Graphic Design</title>
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
-   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <link rel="stylesheet" href="css/style.css">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-
-<!--Container -->
-<div class="contact container"> 
+<div class="container">
+<h4 class="home"><a href="index.html">Home</a></h4>
 <header>
-<a href="index.html"> <h4 class="logo">JC LOGO</h4> </a>
 <nav>
  <ul>
    <li><a href="index.html"></a></li>
    <li><a href="portfolio.html">Portfolio</a></li>
    <li><a href="about.html">About</a></li>
-   <li><a href="contact.html class=active">Contact</a></li>
+   <li><a href="contact.html">Contact</a></li>
  </ul>
  </nav>
 </header>
 
-<Main>
-      <h1 align="center">JOANNA CRUZ</h1> 
-      <h2 align="center">graphic design</h2>
-</main>
+<main>
+  <h1> JOANNA CRUZ</h1>
+<h2>graphic design</h2>
 
+
+<h3>Let’s get in touch!</h3>
+<p>If you’re a graphic design student or professional or just
+want to chat about design or collaborate,</p>
+<p>I’d like to hear from you!</p>
+
+<div class="icons">
+  <ul>
+ <a href="portfolio.html"></a>
+ <a href="https://www.facebook.com" img class="fa fa-facebook"></a>
+ <a href="https://www.twitter.com" img class="fa fa-twitter"></a>
+ <a href="https://plus.google.com/u/0/108196230776193825424" img class="fa fa-google"></a>
+</ul>
+</div>
+
+<p>Email: Joanna.Cruz65@qmail.cuny.edu</p>
 
 <div class="container">
-  <div style="text-align:center">
-    <h3>Let’s get in touch!</h3><p>If you’re a graphic design student or professional or justwant to chat about design or collaborate, I’d like to hear from you</p>
+  <form action="action_page.php">
 
-  <form action="/my-handling-form-page" method="post">
-  <div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name">
-  </div>
-  <div>
-    <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="user_mail">
-  </div>
-  <div>
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
-  </div>
-</form>
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-Email: Joanna.Cruz65@qmail.cuny.edu
-</p>
+    <label for="lname"></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+    <label for="subject"></label>
+    <input type="text" id="subject" name="subject" placeholder="Write something.." style="height:150px">
 
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</main>
+</div>
 </body>
+</html>

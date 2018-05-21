@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+
+body {
+	font-family: source-sans-pro;
+	background-color: #ffffff;
+	margin: 0;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+header {
+	width: 100%;
+	height: 10%;
+        text-align: center;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+}
+
+header nav ul {
+	list-style: none;
+	display: inline-block;
+
+}
+
+nav ul li {
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	display: inline-block;
+
+}
+
+ul li a {
+	color: black;
+	text-decoration: none;
+}
+
+ul li:hover a {
+	color: #2C9AB7;
+}
+
+.main {
+	color: #000000;
+	margin: auto;
+	text-align: center;
+        display: block;
+       }
+
+h1 {
+Color:black;
+font-size: 30px;
+text-align:center;
+text-decoration: none;
+}
+
+h2 {
+font-size:20px;
+color:grey;
+text-align: center;
+line-height: 10%;
+padding-bottom: 20px;
+text-decoration: none;
+}
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.icons{
+
+	 text-align: center;
+   margin: auto;
+   padding-top: 10px;
+}
+
+.fa {
+  padding: 8px;
+  font-size: 12px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+
+.fa-google {
+  background: black;
+  color: white;
+}
+
+.h1{
+	text-align: center;
+}
+
+.h2{
+	text-align: center;
+}
+Project {
+	background-color: #FFFFFF;
+	padding-bottom: 35px;
+}
+.project_column {
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	float: left;
+}
+project .project_column h3 {
+	text-align: center;
+}
+
+Project .project_column p {
+	background-color: #FFFFFF;
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.about {
+	padding-left: 20px;
+	padding-right:20px;
+	margin: 40px;
+	text-align: left;
+	padding-right: 80px;
+	padding-left: 80px;
+
+}
+.contact{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+	input[type=text], select, textarea {
+			width: 50%;
+			padding: 30px;
+			border: 1px solid orange;
+			border-radius: 80px;
+			box-sizing: 200px;
+			margin-top: 6px;
+			margin-left: 80px;
+			margin-right: 8-px;
+			margin-bottom: 20px;
+			resize: vertical
+	}
+
+	input[type=submit] {
+			background-color: orange;
+			color: green;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+			display: block;
+			text-align: center;
+			margin:auto;
+	}
+
+	input[type=submit]:hover {
+			background-color: #orange;
+	}
+
+	.container {
+		display: inline-block;
+		margin:auto;
+		text-align: center;
+			border-radius: 5px;
+			background-color: white
+			padding: 20px;
+	}
